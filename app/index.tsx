@@ -87,7 +87,10 @@ export default function HomeScreen() {
       <View className="flex-1 bg-gray-100">
         {/* Header with search */}
         <View className="bg-white px-4 py-3 shadow-sm">
-          <Text className="text-2xl font-bold text-gray-800 mb-3">Users</Text>
+          <View className="flex-row items-center justify-center">
+          <Text className="text-2xl font-bold text-gray-800 mb-3">Users List</Text>
+          </View>
+          
           <View className="flex-row items-center bg-gray-100 rounded-lg px-3 py-2">
             <Feather name="search" size={20} color="#9ca3af" />
             <TextInput
